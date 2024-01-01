@@ -1,0 +1,78 @@
+/* Base style for common properties */
+body {
+    background-image: url('../images/page-bg.gif');
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+body.aeon td span.black-bg {
+    background: black;
+    color: #00FF00; /* Green text color */
+}
+
+/* Override specific properties for each class */
+body.chariot td { color: #F1C232; }
+body.death td { color: #000000; font-weight: bold;}
+body.devil td { color: #000000; }
+body.emperor td{  color: #6AA84F; }
+body.empress td { color: #FF00FF; }
+body.fortune td { color: #86B870; }
+body.hangedman td { color: #674EA7; }
+body.hermit td { color: #3D85C6; }
+a.maya:visited {color: inherit;text-decoration: none;}
+body.hierophant td { color: #FF9900; }
+body.judgment td { color: #000000; }
+body.justice td { color: #9900FF; }
+body.lovers td { color: #FF00FF; }
+body.magician td { color: #0000FF; }
+body.moon td { color: #3D85C6; }
+body.priestess td { color: #9900FF; }
+body.sees td { color: black; }
+body.star td { color: #F1C232; font-weight: bold; }
+body.strength td { color: #BF9000; }
+body.sun td { color: #FEAC31; }
+body.temperance td { color: #CC0000; }
+body.tower td { color: #38761D; }
+
+
+
+/* table style*/
+table, th, td {
+ /* Remove this line to remove table borders */
+ border:none;
+ text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    align-self: center;
+    margin: auto;
+    background-color: white;
+    width: 40%;
+}
+
+/*all images in 200x200 */
+img {
+    width: 200px;
+    height: 200px;
+}
+
+tr, th{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+tr#almost_blue {
+    background-color: #f9fbff;
+}
+
+a:visited {
+    color: inherit;
+    color: white;
+}
+
+
+  
